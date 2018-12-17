@@ -1,67 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="./dist/css/main.css">
-    <title>Hello, I am Christopher Duke.</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./dist/css/main.css">
+  <title>Hello, I am Christopher Duke.</title>
 </head>
+
 <body>
-        <header> 
-                <span class="logo">My Website</span>
-                <a id="toggleMenu">Menu</a>
-              <nav>
-                  <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="resume.html">Resume</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                  </ul>
-                </nav>
-              </header>
+  <header>
+    <span class="logo">My Website</span>
+    <a id="toggleMenu">Menu</a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-            <main>
-        </ul><form class="contact-form" action="https://formspree.io/aquila77@live.com" method="POST">
-            <h1>Contact Page</h1>
-    <div>
-         <label for="name">Name</label>
+  <main>
+    </ul>
+    <form class="contact-form" action="https://formspree.io/aquila77@live.com" method="POST">
+      <h1>Contact Page</h1>
+      <div>
+        <label for="name">Name</label>
         <input id="name" type="text" name="name">
-    </div>
+      </div>
 
-    <div>
-         <label for="email">Email</label>
-         <input id="email" type="email" name="_replyto">
-    </div>
+      <div>
+        <label for="email">Email</label>
+        <input id="email" type="email" name="_replyto">
+      </div>
 
-    <div>
+      <div>
         <label for="message">Message</label>
         <textarea id="message" name="message"></textarea>
-    </div>
+      </div>
 
-    <div>
+      <div>
         <input type="hidden" name="subject" value="New submission!">
         <input type="hidden" name="_next" value="https://cmduke73.github.io/thanks.html">
-    </div>
+      </div>
 
-    <div>
+      <div>
         <input type="submit" value="Send">
-    </div>
+      </div>
     </form>
-</main>
-<script>
+  </main>
+  <script>
 
-        var toggleMenu = document.getElementById('toggleMenu');
-        var nav = document.querySelector('nav');
-        toggleMenu.addEventListener(
-          'click',
-          function(){
-            if(nav.style.display=='block'){
-              nav.style.display='none';
-            }else{
-              nav.style.display='block';
-            }
-          });
-      </script>
+    var toggleMenu = document.getElementById('toggleMenu');
+    var nav = document.querySelector('nav');
+    toggleMenu.addEventListener(
+      'click',
+      function () {
+        if (nav.style.display == 'block') {
+          nav.style.display = 'none';
+        } else {
+          nav.style.display = 'block';
+        }
+      });
+  </script>
 
 </body>
+
 </html>
