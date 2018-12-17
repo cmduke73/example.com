@@ -4,58 +4,89 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="./dist/css/main.css">
     <title>Christopher Duke - Resume</title>
 </head>
 
 <body>
-        <nav>
-                <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="resume.html">Resume</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                </ul>
-              </nav>
-    
-    <h1><strong>Christopher Duke</strong></h1>
-    <div>
+        <header> 
+                <span class="logo">My Website</span>
+                <a id="toggleMenu">Menu</a>
+              <nav>
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </nav>
+              </header>
+  <main>
+    <h1 class="text-align"><strong>Christopher Duke</strong></h1>
+    <div class="text-align">
         <a href="https://www.linkedin.com/in/christopher-duke-024526114/" target="_blank" rel="noopener">LinkedIn</a>
         &#x25CF;
          Chicago, IL
     </div>
-
+    <p class="text-align"><strong>Full Stack Web and Hybrid Mobile Applications Developer</strong></p>
+    <p class="text-align">Full stack web and hybrid mobile applications developer specializing in full stack JavaScript application
+     and architectures. Experienced in all stages in the development life cycle, well versed in numerous 
+     programming languages.</p>
     <div>
-        <p><strong>Full Stack Web and Hybrid Mobile Applications Developer</strong></p>
-        <p>Full stack web and hybrid mobile applications developer specializing in full stack JavaScript application and architectures. Experienced in all stages in the development life cycle, well versed in numerous programming languages.</p>
-         <ul>
-          <li>Hands-on experience leading all stages of system development efforts, including requirements in definition design, architecture, testing and support.</li>
-          <li>Outstanding leadership abilities,; able to coordinate and direct all phases of project-based efforts.</li>
+        <ul>
+            <li>Hands-on experience leading all stages of system development efforts, including requirements in definition design, architecture, testing and support.</li>
+            <li>Outstanding leadership abilities,; able to coordinate and direct all phases of project-based efforts.</li>
         </ul>
     </div>
 
-    <p><strong>Core Competencies</strong></p>
-    <div>
-        <ul>
-        <li>Full Stack Development</li>
-        <li>Hybrid Mobile Development</li>
-        <li>Strong Analytical Skills</li>
-        <li>Savvy Problem Solver</li>
-        <li>Prioritizes Tasks</li>
-        <li>Strong Leadership Skill</li></ul>
+    <div class="clearfix">
+        <p class="text-align"><strong>Core Competencies</strong></p>
+        <ul class="listleft">
+           <li>Full Stack Development</li> 
+            <li>Hybrid Mobile Development</li>
+            <li>Strong Analytical Skills</li>
+        </ul>
+
+        <ul class='listright'>
+            <li>Savvy Problem Solver</li>
+         <li>Prioritizes Tasks</li>
+        <li>Strong Leadership Skill</li>
+    </ul>
     </div>
 
     <div>
-       <h2>CERTIFICATIONS / TECHNICAL PROFICIENCIES</h2>
-       <ul style="list-style-type:none">
-       <li>Certifications: Agile Certified Scrum Master</li>
-        <li>Platforms: Linux, Windows, LAMP, NodeJS</li>
-        <li>Database: MySQL</li>
-        <li>Tools: VS Code, Git</li>
-        <li>Languages: HTML, CSS, JavaScript, PHP, Bash, SQL</li>
-    </div>
+        <h2 class="text-align">CERTIFICATIONS / TECHNICAL PROFICIENCIES</h2>
+        
+        <table>
+                <tbody>
+                    <tr>
+                        <th>Certifications:</th>
+                        <td>Agile Certified Scrum Master</td>
+                    </tr>
+                    <tr>
+                        <th>Platforms:</th>
+                        <td>Linux, LAMP, MEAN, NodeJS</td>
+                    </tr>
+                    <tr>
+                        <th>Databases:</th>
+                        <td>MySQL, MongoDB</td>
+                    </tr>
+                    <tr>
+                        <th>Tools:</th>
+                        <td>VS Code, SSH, Gulp, Git</td>
+                    </tr>
+                    <tr>
+                        <th>Languages:</th>
+                        <td>HTML, CSS, SASS, JavaScript, ES6, PHP, BASH, SQL, TypeScript</td>
+                    </tr>
+                </tbody>
+            </table>
 
-    <h3>PROFESSSIONAL EXPERIENCE</h3> 
+
+    <h3 class="text-align">PROFESSSIONAL EXPERIENCE</h3> 
+     
         <div>
-            <p><strong>Neighborhood Empowerment for Better Communities- Jan 2018 – Present Chicago, Illinois</strong></p>  
+            <span class="float-left"><strong>Neighborhood Empowerment for Better Communities - Chicago, Illinois</strong></span> 
+            <span class="float-right"><strong>Jan 2018 – Present</strong></span>
             <p><strong>Receptionist</strong></p>  
             <ul>
             <li>Worked closely with the Executive Director of organization to aid clientele in applying for and preparing selves for future employment</li>
@@ -67,7 +98,7 @@
         
         <div>
             <p><strong>Soulstarelements Inc - May 2012 – Nov 2015 Chicago IL</strong></p>
-            <p><strong>Volunteer Graphic Specialist</strong></p>
+            <p ><strong>Volunteer Graphic Specialist</strong></p>
             <ul>
             <li>Created visual concepts, using computer software or by hand, to communicate ideas that inspire, inform, and captivate consumers</strong></p> 
             <li>Hands-on experience in volunteering for graphic design projects such as developing design layouts</li> 
@@ -77,6 +108,7 @@
         </div>
         
         <div>
+
             <p><strong>Northeastern Illinois University - Jan 1995 – Nov 1998 Chicago IL</strong></p>
             <p><strong>Academic Computing Consultant</strong></p>
             <ul>
@@ -93,22 +125,38 @@
             <p><strong>Malcolm X College - January 1991- June 1994</strong></p>
             <p><strong>Computer Lab Assistant</strong></p>
             <ul>
-            <li>Coordinated scheduling of students and teachers for computer lab operations and activities</li>
-            <li>Assisted students with everyday computer related tasks</li>
-            <li>Tasked with occasional filing of records, answered telephones</li>
-            <li>Engaged in technical support such as light computer repair and installation of programs relative to curriculum</li>
-            <li>Performed routine and preventive maintenance of computer lab and classroom equipment (e.g. dusting, cleaning, virus scanning, creating/clearing Internet bookmarks, defragmenting, etc.) 
-            to ensure the availability of equipment in safe operating condition.</li>
-        </ul>
+                <li>Coordinated scheduling of students and teachers for computer lab operations and activities</li>
+                <li>Assisted students with everyday computer related tasks</li>
+                <li>Tasked with occasional filing of records, answered telephones</li>
+                <li>Engaged in technical support such as light computer repair and installation of programs relative to curriculum</li>
+                <li>Performed routine and preventive maintenance of computer lab and classroom equipment (e.g. dusting, cleaning, virus scanning, creating/clearing Internet bookmarks, defragmenting, etc.) 
+                 to ensure the availability of equipment in safe operating condition.</li>
+            </ul>
         </div>
 
-        <h4>EDUCATION</h4>
-        <div>
+        <h4 class='edu'>EDUCATION</h4>
+        <div class='float-right'>
         <p><strong>Northeastern Illinois University – 1995-1997 Chicago, Illinois</strong></p> 
         <p>Bachelor of Arts - Psychology
         </div>
         
         <p><strong>City Colleges of Chicago - Malcolm X College - 1991-1994 Chicago, Illinois</strong></p>
         <p>Associate of Arts</p>
+</main>
+        <script>
+
+                var toggleMenu = document.getElementById('toggleMenu');
+                var nav = document.querySelector('nav');
+                toggleMenu.addEventListener(
+                  'click',
+                  function(){
+                    if(nav.style.display=='block'){
+                      nav.style.display='none';
+                    }else{
+                      nav.style.display='block';
+                    }
+                  });
+              </script>
+        
 </body>
 </html>
