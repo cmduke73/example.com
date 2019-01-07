@@ -18,10 +18,10 @@
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="resume.html">Resume<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="resume.php">Resume<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="thanks.html">Thanks</a>
+                <a class="nav-link" href="thanks.php">Thanks</a>
           </div>
         </nav>
     <div class="jumbotron">
@@ -29,7 +29,7 @@
       <p class="lead">Greetings everyone! I'm Christopher Duke, and I'd like to welcome you to my new home on the Web! There's going to be more to come in the future so stay tuned!</p>
       <hr class="my-4">
       <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-      <a class="btn btn-primary btn-lg" href="contact.html" role="button">Contact Chris</a>
+      <a class="btn btn-primary btn-lg" href="contact.php" role="button">Contact Chris</a>
     </div>
 
     <div class="card-group">

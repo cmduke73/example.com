@@ -20,10 +20,10 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="thanks.html">Thanks</a>
+            <a class="nav-link" href="thanks.php">Thanks</a>
           </li>
       </div>
     </nav>
@@ -34,6 +34,7 @@
       <a href="https://www.linkedin.com/in/christopher-duke-024526114/" target="_blank" rel="noopener">LinkedIn</a>
       &#x25CF;
       Chicago, IL
+
     </div>
     <p class="text-align"><strong>Full Stack Web and Hybrid Mobile Applications Developer</strong></p>
     <p class="text-align">Full stack web and hybrid mobile applications developer specializing in full stack JavaScript
@@ -44,7 +45,7 @@
       <ul>
         <li>Hands-on experience leading all stages of system development efforts, including requirements in definition
           design, architecture, testing and support.</li>
-        <li>Outstanding leadership abilities,; able to coordinate and direct all phases of project-based efforts.</li>
+        <li>Outstanding leadership abilities, able to coordinate and direct all phases of project-based efforts.</li>
       </ul>
     </div>
 
@@ -89,13 +90,14 @@
             <td>HTML, CSS, SASS, JavaScript, ES6, PHP, BASH, SQL, TypeScript</td>
           </tr>
         </tbody>
+
       </table>
+     </div>
 
-
-      <h3 class="text-align">PROFESSSIONAL EXPERIENCE</h3>
+      <h3 class="text-align">PROFESSIONAL EXPERIENCE</h3>
 
       <div>
-        <span class="float-left"><strong>Neighborhood Empowerment for Better Communities - Chicago, Illinois</strong></span>
+        <span><strong>Neighborhood Empowerment for Better Communities - Chicago, Illinois</strong></span>
         <span class="float-right"><strong>Jan 2018 – Present</strong></span>
         <p><strong>Receptionist</strong></p>
         <ul>
@@ -110,8 +112,9 @@
       </div>
 
       <div>
-        <p class="float-left"><strong>Soulstarelements Inc - May 2012 – Nov 2015 Chicago IL</strong></p>
-        <p class="float-right"><strong>Volunteer Graphic Specialist</strong></p>
+        <span><strong>Soulstarelements Inc - Chicago IL</strong></span>
+        <span class="float-right"><strong>May 2012 – Nov 2015</strong></span>
+        <p><strong>Volunteer Graphic Specialist</strong></p>
         <ul>
           <li>Created visual concepts, using computer software or by hand, to communicate ideas that inspire, inform,
             and captivate consumers</strong></li>
@@ -123,7 +126,8 @@
 
       <div>
 
-        <p><strong>Northeastern Illinois University - Jan 1995 – Nov 1998 Chicago IL</strong></p>
+        <span><strong>Northeastern Illinois University - Chicago, IL</strong></span>
+        <span class="float-right"><strong>Jan 1995 – Nov 1998 </strong></span>
         <p><strong>Academic Computing Consultant</strong></p>
         <ul>
           <li>Tasked with occasional filing of records</li>
@@ -139,7 +143,8 @@
 
 
       <div>
-        <p><strong>Malcolm X College - January 1991- June 1994</strong></p>
+        <span><strong>Malcolm X College - Chicago, IL</strong></span>
+        <span class="float-right"><strong>January 1992 - June 1994</strong></span>
         <p><strong>Computer Lab Assistant</strong></p>
         <ul>
           <li>Coordinated scheduling of students and teachers for computer lab operations and activities</li>
@@ -154,13 +159,16 @@
       </div>
 
       <h4 class='edu'>EDUCATION</h4>
-      <div class='float-right'>
-        <p><strong>Northeastern Illinois University – 1995-1997 Chicago, Illinois</strong></p>
-        <p>Bachelor of Arts - Psychology
+      <div>
+        <span><strong>Northeastern Illinois University Chicago, IL</strong></span>
+        <span class="float-right"><strong>1995-1997</strong></span>
+        <p>Bachelor of Arts - Psychology</p>
       </div>
 
-      <p><strong>City Colleges of Chicago - Malcolm X College - 1991-1994 Chicago, Illinois</strong></p>
+      <span><strong>Malcolm X College - Chicago, IL</strong></span>
+      <span class="float-right"><strong>1991-1994</strong></span>
       <p>Associate of Arts</p>
+</div>
   </main>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
