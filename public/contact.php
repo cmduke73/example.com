@@ -1,5 +1,5 @@
 <?php
-
+require "../config/keys.php";
 require '../core/Chris/src/validation/validate.php';
 require '../vendor/autoload.php';
 
@@ -45,20 +45,33 @@ if(!empty($input)){
 
     # Include the Autoloader (see "Libraries" for install instructions)
 
+    /*
     # Instantiate the client.
     $mgClient = new Mailgun(MG_KEY);
     $domain = MG_DOMAIN;
 
     # Make the call to the client.
-    $result = $mgClient->sendMessage("$domain", array(
+            $result = $mgClient->sendMessage("$domain", array(
             'from'    => "{$input['name']} <{$input['email']}>",
             'to'      => 'Chris Duke <cmduke73@hotmail.com>',
             'subject' => $input['subject'],
             'text'    => $input['message']
             )
     );
-    var_dump($result);
+    var_dump($result));
+    */
 
+    mail(
+      'cmduke73@hotmail.com',
+      $input['subject'],
+      $input['message'],
+      "FROM: {$input['email']}"
+    );
+
+    $response = 200;
+    if($response === 200){
+      //header('LOCATION: thanks.php');
+    }
 
     $message = "<div class=\"alert alert-success\">Your form has been submitted!</div>";
   }else{
