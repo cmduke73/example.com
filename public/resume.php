@@ -1,34 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-  <link rel="stylesheet" href="dist/css/main.css">
-  <title>Christopher Duke - Resume</title>
-</head>
+$meta=[];
+$meta['title']='Christopher Duke - Resume';
+$meta['description']='Chris/s Resume';
+$content = <<<EOT
 
-<body>
-  <header>
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Christopher Duke</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="thanks.php">Thanks</a>
-          </li>
-      </div>
-    </nav>
-  </header>
-  <main>
     <h1 class="text-align"><strong>Christopher Duke</strong></h1>
     <div class="text-align">
       <a href="https://www.linkedin.com/in/christopher-duke-024526114/" target="_blank" rel="noopener">LinkedIn</a>
@@ -98,7 +74,7 @@
 
       <div>
         <span><strong>Neighborhood Empowerment for Better Communities - Chicago, Illinois</strong></span>
-        <span class="float-right"><strong>Jan 2018 – Present</strong></span>
+        <span class="float-right"><strong>Jan 2018 – May 2018</strong></span>
         <p><strong>Receptionist</strong></p>
         <ul>
           <li>Worked closely with the Executive Director of organization to aid clientele in applying for and preparing
@@ -169,12 +145,6 @@
       <span class="float-right"><strong>1991-1994</strong></span>
       <p>Associate of Arts</p>
 </div>
-  </main>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+EOT;
 
-
-</body>
-
-</html>
+require '../core/layout.php';
