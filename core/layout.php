@@ -18,6 +18,7 @@
 
 <?php endif; ?>
     <!-- Required meta tags -->
+    <base href="/">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -46,6 +47,9 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="contact.php">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="posts">Posts</a>
                 </li>
             </ul>
         </div>
