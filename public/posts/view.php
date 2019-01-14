@@ -25,7 +25,7 @@ $content=<<<EOT
 
 <hr>
 <div>
-  <a class="btn btn-link" href="posts/edit.php?id={$row['id']}">Edit</a>
+  <a class="btn btn-link" href="inquiries/view.php?id={$row['id']}">View</a>
   <a class="btn btn-link text-danger" href="posts/delete.php?id={$row['id']}">Delete</a>
 EOT;
 

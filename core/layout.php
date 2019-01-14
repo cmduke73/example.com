@@ -69,7 +69,9 @@ background: #cdcdcd;
                 <li class="nav-item">
                   <a class="nav-link <?php echo active('/users/'); ?>" href="users">Users</a>
                 </li>
-
+                <li class="nav-item">
+                  <a class="nav-link <?php echo active('/inquiries/'); ?>" href="inquiries">Inquiries</a>
+                </li>
                 <li class="nav-item">
                   <?php if(!empty($_SESSION['user']['id'])): ?>
                     <a class="nav-link" href="logout.php">Logout</a>
