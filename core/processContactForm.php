@@ -40,6 +40,7 @@ if(!empty($input)){
   $valid->check($input);
 
   if(empty($valid->errors)){
+//form processing for mailgun
       header('LOCATION: thanks.php');
     }else{
       $message = "<div class=\"alert alert-danger\">Your form has errors!</div>";
