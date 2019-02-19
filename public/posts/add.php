@@ -27,7 +27,7 @@ if(!empty($input)){
 
     //Sanitized insert
     $sql = 'INSERT INTO
-   inquiries
+   posts
     SET
     id=uuid(),
     title=?,

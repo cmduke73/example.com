@@ -1,5 +1,7 @@
 <?php
-
+require '../core/functions.php';
+require '../config/keys.php';
+require '../core/db_connect.php';
 require '../core/processContactForm.php';
 
 $meta=[];
@@ -13,11 +15,15 @@ $content = <<<EOT
       <h1>Contact Form</h1>
 
       <div class="form-group">
-        <label for="name">Name</label>
-        <input class="form-control" id="name" type="text" name="name" value="{$valid->userInput('name')}">
+        <label for="name">First Name</label>
+        <input class="form-control" id="first_name" type="text" name="first_name" value="{$valid->userInput('name')}">
         <div class="text-danger">{$valid->error('name')}</div>
       </div>
-
+      <div class="form-group">
+      <label for="name">Last Name</label>
+      <input class="form-control" id="last_name" type="text" name="last_name" value="{$valid->userInput('name')}">
+      <div class="text-danger">{$valid->error('name')}</div>
+    </div>
       <div class="form-group">
         <label for="email">Email</label>
         <input required class="form-control" id="email" type="email" name="email" value="{$valid->userInput('email')}">

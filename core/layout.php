@@ -1,14 +1,12 @@
-<?php
 
+<?php
 function active($name){
   $current = $_SERVER['REQUEST_URI'];
   if($current === $name){
     return 'active';
   }
-
   return null;
 }
-
 ?>
 <!doctype html>
 <html lang="en">
@@ -18,6 +16,10 @@ function active($name){
 
       <?php if(!empty($meta['title'])): ?>
         <title><?php echo $meta['title']; ?></title>
+      <?php endif; ?>
+
+      <?php if(!empty($meta['body'])): ?>
+        <meta name="body" content="<?php echo $meta['body']; ?>">
       <?php endif; ?>
 
       <?php if(!empty($meta['description'])): ?>
@@ -36,12 +38,10 @@ function active($name){
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <style>
+   <style>
       body{
         margin-top: 60px;
 background: #cdcdcd;
-
-
       }
     </style>
   </head>
@@ -59,9 +59,6 @@ background: #cdcdcd;
                 </li>
                 <li class="nav-item">
                   <a class="nav-link <?php echo active('/resume.php'); ?>" href="resume.php">Resume</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link <?php echo active('/contact.php'); ?>" href="contact.php">Contact</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link <?php echo active('/posts/'); ?>" href="posts">Posts</a>
@@ -92,4 +89,3 @@ background: #cdcdcd;
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
-
