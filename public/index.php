@@ -11,9 +11,8 @@ $content = <<<EOT
 
     <div class="jumbotron">
       <h1 class="display-4">Christopher Duke</h1>
-      <p class="lead">Greetings everyone! I'm Christopher Duke, and I'd like to welcome you to my new home on the Web! There's going to be more to come in the future so stay tuned!</p>
+      <p class="lead">Greetings everyone! I'm Christopher Duke, and I'd like to welcome you to my home on the Web. Here you'll find me letting you in on some of my favortie things, such as my artwork, updates on my professional career, and other such eneavors. It's going to be a constant work in progress, so stay tuned, you won't be disappointed!</p>
       <hr class="my-4">
-      <p>Work in progress here, so just keep watching. Great things are coming.</p>
       <a class="btn btn-primary btn-lg" href="contact.php" role="button">Contact Chris</a>
     </div>
 
@@ -33,16 +32,16 @@ $content = <<<EOT
           <h5 class="card-title">Graphic Works!</h5>
           <p class="card-text">Here you will find a selection of my various works in graphic design, done over the course of the last few years I hope you will enjoy what you will see!</p>
           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          <a class="btn btn-primary btn-lg" href="resume.php" role="button">View my Artwork</a>
+          <a class="btn btn-primary btn-lg" href="graphics.php" role="button">View my Artwork</a>
         </div>
       </div>
       <div class="card">
         <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/en/9/97/DefiantDS9.jpg" alt="Defiant" height="233" width="350">
         <div class="card-body">
           <h5 class="card-title">Quiz Time!</h5>
-          <p class="card-text">A little quiz I wrote up with questions based on things I like anf enjoy. A bit of random trivia, but enjoyable all the same. Try your hand, see how you do!!</p>
+          <p class="card-text">A little quiz I wrote up with questions based on things I like anf enjoy. A bit of random trivia, but enjoyable. Try your hand, see how you do!!.</p>
           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          <a class="btn btn-primary btn-lg" href="quiz2.php" role="button">Play the Quiz!</a>
+          <a class="btn btn-primary btn-lg" href="quiz.php" role="button">Play the Quiz!</a>
         </div>
       </div>
     </div>

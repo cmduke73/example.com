@@ -6,10 +6,13 @@ $meta['description']='Chris/s Resume';
 $content = <<<EOT
 
     <h1 class="text-align"><strong>Christopher Duke</strong></h1>
+    <h4 class="text-align"> Chicago, IL</h4>
     <div class="text-align">
       <a href="https://www.linkedin.com/in/christopher-duke-024526114/" target="_blank" rel="noopener">LinkedIn</a>
       &#x25CF;
-      Chicago, IL
+      <a href="https://github.com/cmduke73/" target="_blank" rel="noopener">Github</a>
+
+
 
     </div>
     <p class="text-align"><strong>Full Stack Web and Hybrid Mobile Applications Developer</strong></p>

@@ -45,8 +45,8 @@ if(!empty($input)){
   if($pdo->prepare($sql)->execute([
     $input['first_name'],
     $input['last_name'],
-    $input['message'],
-    $input['email']
+    $input['email'],
+    $input['message']
   ])){
     header('LOCATION:/thanks.php');
   }else{

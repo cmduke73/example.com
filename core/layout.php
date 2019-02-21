@@ -41,7 +41,7 @@ function active($name){
    <style>
       body{
         margin-top: 60px;
-background: #cdcdcd;
+background: #b4b8c1;
       }
     </style>
   </head>
@@ -61,13 +61,10 @@ background: #cdcdcd;
                   <a class="nav-link <?php echo active('/resume.php'); ?>" href="resume.php">Resume</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link <?php echo active('/posts/'); ?>" href="posts">Posts</a>
+                  <a class="nav-link <?php echo active('/users'); ?>" href="users">Users</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link <?php echo active('/users/'); ?>" href="users">Users</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link <?php echo active('/inquiries/'); ?>" href="inquiries">Inquiries</a>
+                  <a class="nav-link <?php echo active('/inquiries'); ?>" href="inquiries">Inquiries</a>
                 </li>
                 <li class="nav-item">
                   <?php if(!empty($_SESSION['user']['id'])): ?>
