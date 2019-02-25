@@ -123,10 +123,10 @@ if(!empty($_POST)){
        $rekey = str_replace('_', '', $key);
 
        if($questions[$rekey]['c'] == $value){
-           echo "Correct :slightly_smiling_face: <br>";
-       }else{
-           echo "Incorrect :(<br>";
-       }
+        $message .= "Question {$key}: Correct! :)<br>";
+      }else{
+       $message .= "Question {$key}: Sorry :) Try again!<br>";
+      }
    }
 }
 
