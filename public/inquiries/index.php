@@ -15,6 +15,7 @@ while($row = $stmt->fetch()){
     "<td><a href=\"inquiries/view.php?id={$row['id']}\">{$row['first_name']}</a></td>" .
     "<td><a href=\"inquiries/view.php?id={$row['id']}\">{$row['last_name']}</a></td>".
     "<td><a href=\"inquiries/view.php?id={$row['id']}\">{$row['email']}</a></td>" .
+    "<td><a href=\"inquiries/view.php?id={$row['id']}\">{$row['message']}</a></td>" .
     "<td><a href=\"inquiries/view.php?id={$row['id']}\">{$row['created']}</a></td>" .
     "</tr>";
 }
@@ -26,6 +27,7 @@ $content=<<<EOT
       <th>First Name</th>
       <th>Last Name</th>
       <th>Email</th>
+      <th>Message</th>
       <th>Created</th>
     </tr>
   </thead>

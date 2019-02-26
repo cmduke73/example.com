@@ -18,13 +18,13 @@ $stmt = $pdo->prepare("SELECT * FROM inquiries WHERE {$where}");
 $stmt->execute(['lookup'=>$lookup]);
 $row = $stmt->fetch();
 $meta=[];
-$meta['title']="{$row['first_name']}{$row['last_name']} says:";
+$meta['title']="{$row['first_name']} {$row['last_name']} says:";
 $content=<<<EOT
-<h1>{$row['first_name']} Says</h1>
+<h1>{$row['first_name']} {$row['last_name']} Says</h1>
 <div><strong>First Name:</strong> {$row['first_name']}</div>
 <div><strong>Last Name:</strong> {$row['last_name']}</div>
 <div><strong>email:</strong> {$row['email']}</div>
-<div><strong>message:</strong> {$row['last_name']}</div>
+<div><strong>message:</strong> {$row['message']}</div>
 <hr>
 <div>
   <a class="btn btn-link" href="mailto:{$row['email']}">Respond</a>
